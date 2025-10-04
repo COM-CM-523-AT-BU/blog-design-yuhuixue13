@@ -16,10 +16,10 @@ Put your styles in this file. Import your fonts at the top of the file! See exam
 
 header h2{
   font-size: 0.875rem; 
-  color: #6e6e73;     
+  color: #57575e;     
   letter-spacing: 0.5px;
   margin-bottom: 0.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   margin-top: 3rem;
 }
@@ -70,7 +70,7 @@ background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(196, 223, 25
 
 .list1 li {
   font-size: 0.85rem;
-  color: #545454;
+  color: #464646;
   font-family: "Public Sans", sans-serif;
 }
 
@@ -92,10 +92,10 @@ h4{
 h5{
   margin-bottom: 0.1rem; 
   font-family: "Public Sans", sans-serif;
-  font-weight: extrabold;
+  font-weight: bold;
 }
 p{
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 aside{
@@ -119,7 +119,7 @@ section {
 h2 {
   font-size: 1.35rem;
   line-height: 1.4;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 
 }
 
@@ -136,7 +136,31 @@ blockquote{
 figcaption{
   border-left: 3px solid darkgray;
   padding-left: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: small;
+  line-height: 1rem;
+}
+
+.list2{
+  font-family:Arial, Helvetica, sans-serif;
+  line-height: 3rem;
+} 
+
+::marker {
+  color: #ff8c00; /* 改 bullet 颜色 */
+  font-size: 2rem; /* 可选：让圆点更大 */
+}
+
+.list3 li{
+  background-color: 	#a3d9c8;
+  margin:1.5rem;
+  padding: 0.5rem 1.5rem 1rem;
+  border-radius: 2rem;
+}
+
+.pinkbg{
+  background-color: rgb(255, 241, 237);
+  border-radius: 2rem;
+  padding: 1.5rem;
 }
