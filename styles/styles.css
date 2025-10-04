@@ -2,18 +2,87 @@
 Put your styles in this file. Import your fonts at the top of the file! See example below, which uses @import to retrieve the Roboto typeface from Google Fonts.
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 ===== */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
 header h2{
   font-size: 0.875rem; 
   color: #6e6e73;      
   letter-spacing: 0.5px;
   margin-bottom: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-transform: uppercase;
+  margin-left: 6.25rem;
+  margin-top: 3rem;
+
+
 }
+header h5{
+    font-weight: 300; 
+  margin-bottom: 0.25rem; 
+}
+
 article{
-  	max-width: 37rem;
+  max-width: 44rem;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+.list1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;  /* ⬅️ vertical alignment fix */
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(196, 223, 255, 1) 100%);
+}
+
+.list1 li {
+  font-size: 0.85rem;
+  color: #545454;
+  font-family: "Public Sans", sans-serif;
+}
+
+ul button {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #d2d2d7;
+  border-radius: 6px;
+  background: white;
+  line-height: 1.2;  /* prevents button text from looking taller */
+}
 
 
+h1{
+   margin-top: 0.25rem;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+h4{
+  text-align: right;
+  font-family: "Public Sans", sans-serif;
+  font-size: 0.8rem; 
+  font-weight: 300; 
+}
+h5{
+  margin-bottom: 0.1rem; 
+  font-family: "Public Sans", sans-serif;
+  font-weight: extrabold;
+}
+
+p{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+p span{
+  font-weight: bold;
+}
 
