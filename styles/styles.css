@@ -191,3 +191,44 @@ li{
   border-radius: 2rem;
   padding: 1.5rem;
 }
+
+.plan img{
+    width: 45%;         /* 控制图片宽度 */
+  height: auto;        /* 让高度按比例自动调整 */
+  float: right;        /* 让图片靠右 */
+  margin-left: 1.5rem; /* 图片与左侧文字之间留点空间 */
+  margin-bottom: 1rem; /* 图片和下方文字分开 */
+  border-radius: 10px; 
+}
+
+.feedback img{
+   width: 25%;         /* 控制图片宽度 */
+  height: auto;        /* 让高度按比例自动调整 */
+  float: right;        /* 让图片靠右 */
+  margin-left: 1.5rem; /* 图片与左侧文字之间留点空间 */
+  margin-bottom: 1rem; /* 图片和下方文字分开 */
+  border-radius: 10px; 
+}
+
+.practice img{
+   width: 500px;
+  height: auto;
+  display: block;
+  border-radius: 1rem;
+}
+
+
+.apple img{
+  width: 600px;
+  height: auto;
+  display: block;
+  border-radius: 1rem;
+}
+
+.rocket img{
+   width: 700px;
+  height: auto;
+  display: block;
+  border-radius: 1rem;
+  margin-bottom: 5rem;
+}
