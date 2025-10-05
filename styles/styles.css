@@ -124,13 +124,19 @@ h2 {
 }
 
 blockquote{
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  background: #fff0f2;
+  border-left: 10px solid #d09b9b;
   /*border-radius: 1em;*/
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+  border-radius: 1rem;
 }
+.uximage1 img{
+ width: 400px;
+  height: auto;
+  display: block;
+}
+
 
 
 figcaption{
@@ -153,7 +159,7 @@ figcaption{
 }
 
 .list3 li{
-  background-color: 	#a3d9c8;
+  background-color: 	#ffdada;
   margin:1.5rem;
   padding: 0.5rem 1.5rem 1rem;
   border-radius: 2rem;
