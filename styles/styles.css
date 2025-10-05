@@ -25,7 +25,7 @@ header h2{
 }
 
 article{
-  line-height: 2rem;
+  line-height: 1.6rem;
 }
 
 header h5{
@@ -71,7 +71,7 @@ background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(196, 223, 25
 .list1 li {
   font-size: 0.85rem;
   color: #464646;
-  font-family: "Public Sans", sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 ul button {
@@ -112,9 +112,7 @@ section {
   padding-bottom: 0.5rem;          /* spacing above the line */
 }
 
-.whitespace{
-  border-bottom: 1px solid white;
-}
+
 
 h2 {
   font-size: 1.35rem;
@@ -148,6 +146,20 @@ figcaption{
   line-height: 1rem;
 }
 
+li{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.Vitaly img{
+ width: 400px;
+  height: auto;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  border-radius: 10px;
+}
+
 .list2{
   font-family:Arial, Helvetica, sans-serif;
   line-height: 3rem;
@@ -156,6 +168,15 @@ figcaption{
 ::marker {
   color: #ff8c00; /* 改 bullet 颜色 */
   font-size: 2rem; /* 可选：让圆点更大 */
+}
+
+.interface img{
+   width: 35%;         /* 控制图片宽度 */
+  height: auto;        /* 让高度按比例自动调整 */
+  float: right;        /* 让图片靠右 */
+  margin-left: 1.5rem; /* 图片与左侧文字之间留点空间 */
+  margin-bottom: 1rem; /* 图片和下方文字分开 */
+  border-radius: 10px; /* 可选，让图片四角微圆 */
 }
 
 .list3 li{
