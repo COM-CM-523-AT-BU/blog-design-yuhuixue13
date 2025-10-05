@@ -37,8 +37,8 @@ header h5{
 }
 h1 {
   background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),  /* 白色半透明遮罩 */
-    url("../images/12.jpg");  /* 你的背景图 */
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), 
+    url("../images/12.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@ h1 {
 .list1 {
   display: flex;
   justify-content: center;
-  align-items: center;  /* ⬅️ vertical alignment fix */
+  align-items: center; 
   flex-wrap: wrap;
   list-style: none;
   gap: 1rem;
@@ -61,11 +61,9 @@ h1 {
   margin-top: 1rem;
 
    background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),  /* 白色半透明遮罩 */
-    url("../images/12.jpg");  /* 你的背景图 */
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),  
+    url("../images/12.jpg");  
   background-size: cover;
-/*background: #EEAECA;
-background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(196, 223, 255, 1) 100%);*/
 }
 
 .list1 li {
@@ -80,7 +78,7 @@ ul button {
   border: 1px solid #d2d2d7;
   border-radius: 6px;
   background: white;
-  line-height: 1.2;  /* prevents button text from looking taller */
+  line-height: 1.2; 
 }
 
 h4{
@@ -108,8 +106,8 @@ p span{
 
 section {
     border-bottom: 1px solid grey; 
-  margin-bottom: 2.5rem;         /* spacing below the line */
-  padding-bottom: 0.5rem;          /* spacing above the line */
+  margin-bottom: 2.5rem;         
+  padding-bottom: 0.5rem;     
 }
 
 
@@ -166,17 +164,17 @@ li{
 } 
 
 ::marker {
-  color: #ff8c00; /* 改 bullet 颜色 */
-  font-size: 2rem; /* 可选：让圆点更大 */
+  color: #ff8c00; 
+  font-size: 2rem; 
 }
 
 .interface img{
-   width: 35%;         /* 控制图片宽度 */
-  height: auto;        /* 让高度按比例自动调整 */
-  float: right;        /* 让图片靠右 */
-  margin-left: 1.5rem; /* 图片与左侧文字之间留点空间 */
-  margin-bottom: 1rem; /* 图片和下方文字分开 */
-  border-radius: 10px; /* 可选，让图片四角微圆 */
+   width: 35%;        
+  height: auto;       
+  float: right;       
+  margin-left: 1.5rem; 
+  margin-bottom: 1rem; 
+  border-radius: 10px; 
 }
 
 .list3 li{
@@ -193,20 +191,20 @@ li{
 }
 
 .plan img{
-    width: 45%;         /* 控制图片宽度 */
-  height: auto;        /* 让高度按比例自动调整 */
-  float: right;        /* 让图片靠右 */
-  margin-left: 1.5rem; /* 图片与左侧文字之间留点空间 */
-  margin-bottom: 1rem; /* 图片和下方文字分开 */
+    width: 45%;        
+  height: auto;      
+  float: right;       
+  margin-left: 1.5rem; 
+  margin-bottom: 1rem; 
   border-radius: 10px; 
 }
 
 .feedback img{
-   width: 25%;         /* 控制图片宽度 */
-  height: auto;        /* 让高度按比例自动调整 */
-  float: right;        /* 让图片靠右 */
-  margin-left: 1.5rem; /* 图片与左侧文字之间留点空间 */
-  margin-bottom: 1rem; /* 图片和下方文字分开 */
+   width: 25%;        
+  height: auto;       
+  float: right;       
+  margin-left: 1.5rem; 
+  margin-bottom: 1rem; 
   border-radius: 10px; 
 }
 
